@@ -1,0 +1,8 @@
+variavel,descricao,tipo,subtipo
+species,Espécie do pinguim,qualitativa,nominal
+island,Ilha onde o pinguim foi observado,qualitativa,nominal
+bill_length_mm,Comprimento do bico em milímetros,quantitativa,contínua
+bill_depth_mm,Profundidade do bico em milímetros,quantitativa,contínua
+flipper_length_mm,Comprimento da nadadeira em milímetros,quantitativa,contínua
+body_mass_g,Massa corporal em gramas,quantitativa,contínua
+sex,Sexo do pinguim,qualitativa,nominal
