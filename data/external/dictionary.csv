@@ -1,8 +1,16 @@
 variavel,descricao,tipo,subtipo
-species,Espécie do pinguim,qualitativa,nominal
-island,Ilha onde o pinguim foi observado,qualitativa,nominal
-bill_length_mm,Comprimento do bico em milímetros,quantitativa,contínua
-bill_depth_mm,Profundidade do bico em milímetros,quantitativa,contínua
-flipper_length_mm,Comprimento da nadadeira em milímetros,quantitativa,contínua
-body_mass_g,Massa corporal em gramas,quantitativa,contínua
-sex,Sexo do pinguim,qualitativa,nominal
+survived,Indica se o passageiro sobreviveu (1) ou não (0).,qualitativa,nominal
+pclass,"Classe do bilhete do passageiro (1 = Primeiro, 2 = Segundo, 3 = Terceiro).",qualitativa,ordinal
+sex,"Sexo do passageiro (male = masculino, female = feminino).",qualitativa,nominal
+age,Idade do passageiro em anos.,quantitativa,contínua
+sibsp,Número de irmãos ou cônjuges a bordo.,quantitativa,discreta
+parch,Número de pais ou filhos a bordo.,quantitativa,discreta
+fare,Tarifa paga pelo passageiro.,quantitativa,contínua
+embarked,"Porto de embarque do passageiro (C = Cherbourg, Q = Queenstown, S = Southampton).",qualitativa,nominal
+class,"Classe do bilhete do passageiro (First, Second, Third).",qualitativa,ordinal
+who,"Categoria do passageiro (man = homem, woman = mulher, child = criança).",qualitativa,nominal
+adult_male,Indica se o passageiro é um adulto do sexo masculino (True) ou não (False).,qualitativa,nominal
+deck,Deck do navio onde o passageiro estava localizado.,qualitativa,nominal
+embark_town,"Cidade de embarque do passageiro (Cherbourg, Queenstown, Southampton).",qualitativa,nominal
+alive,Indica se o passageiro está vivo (yes) ou não (no).,qualitativa,nominal
+alone,Indica se o passageiro estava sozinho (True) ou acompanhado (False).,qualitativa,nominal
